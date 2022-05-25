@@ -11,16 +11,16 @@ O resultado final do projeto está hospedado [aqui](https://bankist-migliori.net
 
 Para testar, é preciso fazer o login com alguma das contas existentes. Essas são as combinações:
 
-user: js
+user: js<br>
 pin: 1111
 
-user: jd
+user: jd<br>
 pin: 2222
 
-user: lm
+user: lm<br>
 pin: 3333
 
-user: ss
+user: ss<br>
 pin: 4444
 
 ## Regras de negócio
