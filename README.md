@@ -25,7 +25,7 @@ pin: 4444
 
 ## Funcionalidades e regras de negócio
 
-Cada usuário é um Objeto com suas propriedades. Após acessar com o user e o pin, a interface será "construída" com as informações do respectivo usuário. 
+Cada usuário representa uma conta, que é um Objeto. Após acessar com o user e o pin, a interface será "construída" com as informações da conta do respectivo usuário. 
 
 ### Histórico de movimentações
 
@@ -37,9 +37,13 @@ Nesse campo, é possível transferir valores para alguma das outras contas exist
 
 ### Campo para empréstimo
 
-Nesse campo, o usuário pode solicitar um empréstimo. Para que o empréstimo seja "aprovado", o valor solicitado precisa ser
+Nesse campo, o usuário pode solicitar um empréstimo. Para que o empréstimo seja "aprovado", o usuário precisa ter alguma movimentação de entrada que seja pelo menos 1/10 do valor solicitado.
+
+Se essa condição for satisfeita, o valor solicitado é adicionado à conta após 3 segundos. Se não for, nada acontece.
 
 ### Campo para excluir a conta
+
+Nesse campo, o usuário pode excluir sua conta. Ao fazer isso, o objeto (conta) é excluído da array de contas.
 
 ## Sobre esse projeto
 A aplicação foi criada com HTML, CSS e JavaScript. Aprendi e pratiquei um pouco mais alguns princípios e práticas como:
