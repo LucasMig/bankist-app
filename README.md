@@ -27,14 +27,19 @@ pin: 4444
 
 Cada usuário é um Objeto com suas propriedades. Após acessar com o user e o pin, a interface será "construída" com as informações do respectivo usuário. 
 
-- Juros totais
-- Campo para transferência
-- Campo para empréstimo
-- Campo para excluir a conta
-
 ### Histórico de movimentações
 
 Mostra valor e data das movimentações, formatados de acordo com a região do usuário.
+
+### Campo para transferência
+
+Nesse campo, é possível transferir valores para alguma das outras contas existentes. Basta digitar o user e o valor desejado.
+
+### Campo para empréstimo
+
+Nesse campo, o usuário pode solicitar um empréstimo. Para que o empréstimo seja "aprovado", o valor solicitado precisa ser
+
+### Campo para excluir a conta
 
 ## Sobre esse projeto
 A aplicação foi criada com HTML, CSS e JavaScript. Aprendi e pratiquei um pouco mais alguns princípios e práticas como:
