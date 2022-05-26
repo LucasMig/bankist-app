@@ -23,12 +23,24 @@ pin: 3333
 user: ss<br>
 pin: 4444
 
-## Regras de negócio
+## Funcionalidades e regras de negócio
+
+Cada usuário é um Objeto com suas propriedades. Após acessar com o user e o pin, a interface será "construída" com as informações do respectivo usuário. 
+
+- Juros totais
+- Campo para transferência
+- Campo para empréstimo
+- Campo para excluir a conta
+
+### Histórico de movimentações
+
+Mostra valor e data das movimentações, formatados de acordo com a região do usuário.
 
 ## Sobre esse projeto
 A aplicação foi criada com HTML, CSS e JavaScript. Aprendi e pratiquei um pouco mais alguns princípios e práticas como:
 
-Qualidade do código
-Baixo acoplamento
-Componentização e reutilização de código
-Além disso, também procurei usar gitflow (no começo do projeto, não sabia nem o que era isso). Acredito que entendi o conceito mas ainda preciso praticar muito!
+- Estruturas de dados
+- JavaScript Assíncrono
+- Qualidade do código
+- Baixo acoplamento
+- Componentização e reutilização de código
